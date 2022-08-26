@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template</title>
+    <link rel="shortcut icon" href="src/logo.jpg" type="image/x-icon">
+
+    <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://kit.fontawesome.com/1eedd80674.js" crossorigin="anonymous"></script>
+  </head>
+  <body onscroll="fixnav()">
+    <div class="navbarbg">
+       <nav class="navbar" id="navbar">
+        <div class="nav">
+        <div class="mainheading">
+          <a href="#">Act</a>
+        </div>
+        <ul class="navbarlist">
+         <li class="navitem">
+          <a href="#aboutus">About us</a>
+         </li>
+         <li class="navitem">
+          <a href="#ourimpact">Our Impact</a>
+         </li>
+         <li class="navitem">
+          <a href="#portfolio">Our Work</a>
+         </li>
+         <li class="navitem">
+          <a href="#subscribe">Subscribe</a>
+         </li>
+         <li class="navitem">
+          <a href="#contact">Contact</a>
+         </li>
+         <li class="navitem">
+          <a href="#">Pages</a>
+         </li>
+         <button class="btn navbarbtn btn-primary btn-xl">Donate</button>
+        </ul>
+      </div>
+       </nav>
+      <!-- Header -->
+        <div class="m1heading ">
+          <h1 class="ocean">The Ocean needs your help</h1>
+          <div class="learnmorebtn">
+          <a href="#">Tell Me More</a>
+        </div>
+        </div>
+    </div>
+    <section class="about-us" id="aboutus">
+      <div class="aboutsection">
+        <div class="help">
+          <div class="helptext">
+            <h3>Help whales in crisis now</h3>
+            <p>
+              December's oil spill means whales needs your help now more than
+              ever. Help protect our future and our earth by making a donation
+              today.
+            </p>
+            <div class="progress mb-4">
+              <div
+                class="progress-bar fill-accent-primary progress-bar"
+                role="progressbar"
+                style="width: 25%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <a class="text-link-primary learnmore animated-arrow" href="#">
+              Learn More
+              <i class="fas fa-angle-right large-text"></i>
+            </a>
+          </div>
+          <div class="donatemodual">
+          <div class="col-md-5">
+            <div class="row donate-now">
+              <div class="col-lg-12 pl-5">
+                <form id="donateForm" name="sentMessage" novalidate>
+                  <div class="form-group form">
+                    <input
+                      class="form-control"
+                      id="amount"
+                      type="text"
+                      placeholder="$"
+                      required="required"
+                      data-validation-required-message="It looks like you forgot to enter a number!"
+                    />
+                    <p class="help-block text-danger"></p>
+                    <div class="clearfix"></div>
+
+                    <div id="donateSuccess"></div>
+                    <button class="donatebtn"> Donate now</button>
+                    <div class="text-left accent-secondary mt-2 honourdonate">
+                      <i class="fas fa-heart"></i>Give in honour of
+                      someone
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="aboutpage" id="aboutus">
+        <h2 class="section-heading">
+          We are an international animal rights organisation
+        </h2>
+        <h3 class="section-subheading">
+          Our purpose is to prevent the extinction of our most at-risk animals
+          and increase their numbers. Our programs and projects are designed to
+          support the foundations of a thriving Ocean.
+        </h3>
+        <div class="aboutpagebtn">
+        <button class="btn btn-primary btn-xl text-uppercase" type="submit">
+          Learn more
+        </button>
+      </div>
+      </div>
+    </section>
+
+    <section class="impact-section" id="ourimpact">
+      <div class="container">
+        <div class="impacthead">
+          <h2>Oue Impact</h2>
+          <p>Since 2000, our effoets to have led to remarkable results:</p>
+        </div>
+        <div class="subheading">
+          <div class="impactcontent">
+            <h1>200 Million</h1>
+            <p>Pleces plastic debris removed</p>
+            <div class="link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="impactcontent">
+            <h1>425,000 animals</h1>
+            <p>Marine animals saved</p>
+            <div class="link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+          <div class="impactcontent">
+            <h1>$4.1 billion</h1>
+            <p>Raised to support the ocean</p>
+            <div class="link">
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="image-Section" id="portfolio">
+      <!-- for images -->
+      <div class="container">
+        <div class="row">
+          <div class="content">
+            <h2>OUR WORK</h2>
+            <h3>We're tackling the most pressing marine life issues</h3>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals1.jpeg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+               <h1 class="popupbtn" id="popbtn1">+</h1>
+              </div>
+              <p class="">LED Nets</p>
+            </div>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals2.jpeg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn2">+</h1>
+              </div>
+              <p>Arctic Nations</p>
+            </div>
+           </div>
+          <div class="image">
+            <img
+              src="src/animals3.jpg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn3">+</h1>
+              </div>
+              <p>The Great Reef</p>
+            </div>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals4.jpg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn4">+</h1>
+              </div>
+              <p>Ocean Policy</p>
+            </div>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals5.jpg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn5">+</h1>
+              </div>
+              <p>Beach Cleanup</p>
+            </div>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals6.jpg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn6">+</h1>
+              </div>
+              <p>World Summit</p>
+            </div>
+          </div>
+          <div class="image">
+            <img
+              src="src/animals7.jpg"
+              alt=""
+              srcset=""
+              width="340px"
+              height="300px"
+            />
+            <div class="over">
+              <div class="title">
+                <h1 class="popupbtn" id="popbtn7">+</h1>
+              </div>
+              <p>Adopt a Seal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- virtual div -->
+  <!-- Module1 -->
+  <div class=" popup anim" id="popup1">
+    <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+    <div id="image">
+      <img src="src/animals1.jpeg" alt="" srcset="">
+    </div>
+    <div id="content">
+      <h2>LED Nets</h2>
+      <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+      <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+      <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+    </div>
+  </div>
+<!-- Module 2 -->
+<div class=" popup anim" id="popup2">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals2.jpeg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>Arctic Nations</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+<!-- Module 3 -->
+<div class=" popup anim" id="popup3">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals3.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>The Great Reef</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+<!-- modual 4 -->
+<div class=" popup anim" id="popup4">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals4.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>Ocean Policy</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+<!-- modual 5 -->
+<div class=" popup anim" id="popup5">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals5.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>Beach Cleanup</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+<!-- modual6 -->
+<div class=" popup anim" id="popup6">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals6.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>World Summit</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+<!-- modual6 -->
+<div class=" popup anim" id="popup7">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals7.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>Adopt a Seal</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+
+
+<!-- modual7 -->
+<div class=" popup anim" id="popup7">
+  <button class="btn btn-primary btn-xl closebtn" id="closebtn">close</button>
+  <div id="image">
+    <img src="src/animals7.jpg" alt="" srcset="">
+  </div>
+  <div id="content">
+    <h2>Adopt a Seal</h2>
+    <h4>Our conversation projects on the West Coast include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</h4>
+    <p>This is placeholder text. Put a description of your projects and initiaves here. For example include community patrolling of sea turtle nesting beaches, buildling hatcheries to protect sea turtle eggs and hatchlings, developing alternative sources of protein and income for local residents, and supporting sea turtle-based ecotourism.</p>
+    <button class="btn btn-primary btn-xl"><a href="#">Learn More</a></button>
+  </div>
+</div>
+    </section>
+    <section class="subscribe" id="subscribe">
+      <div class="Scontainer">
+        <h1>Subscribe to our Newsletter</h1>
+        <h3>
+          Stay in the loop! Sign up and receive the latest updates on our work.
+        </h3>
+        <input
+          class="Email emailsection"
+          type="email"
+          name="emali"
+          id="#"
+          placeholder="Enter Your Email Address..."
+        />
+        <input type="submit" value="Subscribe" class="Email emailbtn" />
+      </div>
+    </section>
+    <!-- contact us section -->
+    <section class="contactus" id="contact">
+      <div class="contactContainer">
+        <div class="contactheading">
+          <h1>Contact Us</h1>
+          <h3>Get in touch with us directly by using the contact form below</h3>
+        </div>
+        <div class="contactform">
+          <form action="#" class="contactform">
+            <div class="inputname">
+              <input
+                type="text"
+                name="#"
+                id="details"
+                placeholder="YOUR NAME  *"
+              />
+              <input
+                type="email"
+                name="#"
+                id="details"
+                placeholder="YOUR EMAIL  *"
+              />
+              <input
+                type="number"
+                name="#"
+                id="details"
+                placeholder="YOUR MOBILE No.  *"
+              />
+            </div>
+            <div class="textarea">
+              <textarea
+                id="textarea"
+                name="message"
+                rows="6"
+                cols="60"
+              ></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="formbtn">
+          <input type="submit" value="Send Message" />
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer1">
+          Act is a one-page template designed with non-profits in mind. The
+          download includes a number of components to get you started including
+          an email template along with a blog skin.
+        </div>
+        <div class="footer2">
+          <h6>Where to find us</h6>
+          Act International<br />
+          PO Box 15566, New York, NY 66285 Phone 555.555.5200<br />
+        </div>
+        <div class="footer3">
+          <h6>Location</h6>
+          <ul>
+            <li>Greater Los Angeles</li>
+            <li>San Jose / Bay Area</li>
+            <li>Seattle</li>
+            <li>Midwest</li>
+          </ul>
+        </div>
+        <div class="footer4">
+          <h6>Contact With us</h6>
+          <ul class="footerul">
+            <li class="socialicon"><i class="fa-brands fa-twitter"></i></li>
+            <li class="socialicon"><i class="fa-brands fa-facebook-f"></i></li>
+            <li class="socialicon"><i class="fa-brands fa-linkedin-in"></i></li>
+            <li class="socialicon"><i class="fa-brands fa-youtube"></i></li>
+          </ul>
+          <div>
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Search here"
+          />
+          <input type="submit" value="search" id="btn" />
+        </div>
+      </div>
+      </div>
+      <hr>
+      <div class="end">
+        <h6><a href="#">Privacy Policy</a>/<a href="#">Terms Of Use</a></h6>
+        <h6>Copyright Your Website 2022</h6>
+        <h6>ACT is a 501(c)3 Non-Profit Organization</h6>
+      </div>
+    </footer>
+  </body>
+  <script src="index.js"></script>
+</html>
